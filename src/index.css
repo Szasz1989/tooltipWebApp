@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tooltip-wrapper {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.quick-first-row {
+  display: flex;
+  gap: 4px;
+}
+
+.expanded-tooltip {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tooltip-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
+
+.media-wrapper {
+  max-height: 138px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip-learn-more {
+  border: 1px solid #adadad;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: 23px;
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+}
